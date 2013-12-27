@@ -63,7 +63,7 @@
         var username = location.search.substring(1).replace("/","");
         for (var i = 0; i < tags.length; i++) {
             var tag = tags[i];
-            if (document.defaultView.getComputedStyle(tag, null).getPropertyValue("background-image").indexOf('url(http://s3.amazonaws.com/MinecraftSkins/') == 0) {
+            if (document.defaultView.getComputedStyle(tag, null).getPropertyValue("background-image").indexOf('http://s3.amazonaws.com/MinecraftSkins/') != -1) {
                 tag.style.backgroundImage = 'url(http://s3.amazonaws.com/MinecraftSkins/' + username + '.png)';
             }
         }
