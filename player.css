@@ -161,7 +161,7 @@ div.player-head-front {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -181,7 +181,7 @@ div.player-head-back {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -201,7 +201,7 @@ div.player-head-left {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -221,7 +221,7 @@ div.player-head-right {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -241,7 +241,7 @@ div.player-head-top {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -277,7 +277,7 @@ div.player-hat-front {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -302,7 +302,7 @@ div.player-hat-back {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -327,7 +327,7 @@ div.player-hat-left {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -352,7 +352,7 @@ div.player-hat-right {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -377,7 +377,7 @@ div.player-hat-top {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -418,7 +418,7 @@ div.player-body-front {
   width: 8px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -438,7 +438,7 @@ div.player-body-back {
   width: 8px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -458,7 +458,7 @@ div.player-body-left {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -478,7 +478,7 @@ div.player-body-right {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -498,7 +498,7 @@ div.player-body-top {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -566,7 +566,7 @@ div.player-arm-front {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -586,7 +586,7 @@ div.player-arm-back {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -606,7 +606,7 @@ div.player-arm-left {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -626,7 +626,7 @@ div.player-arm-right {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -646,7 +646,7 @@ div.player-arm-top {
   width: 4px;
   height: 4px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -714,7 +714,7 @@ div.player-leg-front {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -734,7 +734,7 @@ div.player-leg-back {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -754,7 +754,7 @@ div.player-leg-left {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -774,7 +774,7 @@ div.player-leg-right {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -794,7 +794,7 @@ div.player-leg-top {
   width: 4px;
   height: 4px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
