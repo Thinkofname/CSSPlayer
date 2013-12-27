@@ -1,0 +1,808 @@
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -moz-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -o-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -ms-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    transform: translateX(32px) translateY(8px) rotateY(0deg); }
+
+  100% {
+    -webkit-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -moz-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -o-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -ms-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    transform: translateX(32px) translateY(8px) rotateY(360deg); } }
+
+@-moz-keyframes spin {
+  0% {
+    -webkit-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -moz-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -o-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -ms-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    transform: translateX(32px) translateY(8px) rotateY(0deg); }
+
+  100% {
+    -webkit-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -moz-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -o-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -ms-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    transform: translateX(32px) translateY(8px) rotateY(360deg); } }
+
+@-ms-keyframes spin {
+  0% {
+    -webkit-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -moz-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -o-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -ms-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    transform: translateX(32px) translateY(8px) rotateY(0deg); }
+
+  100% {
+    -webkit-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -moz-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -o-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -ms-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    transform: translateX(32px) translateY(8px) rotateY(360deg); } }
+
+@-o-keyframes spin {
+  0% {
+    -webkit-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -moz-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -o-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -ms-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    transform: translateX(32px) translateY(8px) rotateY(0deg); }
+
+  100% {
+    -webkit-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -moz-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -o-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -ms-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    transform: translateX(32px) translateY(8px) rotateY(360deg); } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -moz-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -o-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    -ms-transform: translateX(32px) translateY(8px) rotateY(0deg);
+    transform: translateX(32px) translateY(8px) rotateY(0deg); }
+
+  100% {
+    -webkit-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -moz-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -o-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    -ms-transform: translateX(32px) translateY(8px) rotateY(360deg);
+    transform: translateX(32px) translateY(8px) rotateY(360deg); } }
+
+div.player-scaler {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  left: 0;
+  top: 0;
+  zoom: 6;
+  -webkit-perspective: 200;
+  -moz-perspective: 200;
+  -o-perspective: 200;
+  -ms-perspective: 200;
+  perspective: 200;
+  -webkit-perspective-origin: 32px -64px;
+  -moz-perspective-origin: 32px -64px;
+  -o-perspective-origin: 32px -64px;
+  -ms-perspective-origin: 32px -64px;
+  perspective-origin: 32px -64px; }
+
+div.player-render {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 0 0 0;
+  -moz-transform-origin: 0 0 0;
+  -o-transform-origin: 0 0 0;
+  -ms-transform-origin: 0 0 0;
+  transform-origin: 0 0 0;
+  -webkit-animation-name: spin;
+  -moz-animation-name: spin;
+  -o-animation-name: spin;
+  -ms-animation-name: spin;
+  animation-name: spin;
+  -webkit-animation-duration: 20s;
+  -moz-animation-duration: 20s;
+  -o-animation-duration: 20s;
+  -ms-animation-duration: 20s;
+  animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  -ms-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+  -o-animation-direction: normal;
+  -ms-animation-direction: normal;
+  animation-direction: normal; }
+
+div.player-head {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateX(-4px);
+  -moz-transform: translateX(-4px);
+  -o-transform: translateX(-4px);
+  -ms-transform: translateX(-4px);
+  transform: translateX(-4px); }
+
+div.player-head-front {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -8px -8px;
+  -webkit-transform: rotateY(0deg) translateZ(4px);
+  -moz-transform: rotateY(0deg) translateZ(4px);
+  -o-transform: rotateY(0deg) translateZ(4px);
+  -ms-transform: rotateY(0deg) translateZ(4px);
+  transform: rotateY(0deg) translateZ(4px); }
+
+div.player-head-back {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -24px -8px;
+  -webkit-transform: rotateY(180deg) translateZ(4px);
+  -moz-transform: rotateY(180deg) translateZ(4px);
+  -o-transform: rotateY(180deg) translateZ(4px);
+  -ms-transform: rotateY(180deg) translateZ(4px);
+  transform: rotateY(180deg) translateZ(4px); }
+
+div.player-head-left {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: 0px -8px;
+  -webkit-transform: rotateY(270deg) translateZ(4px);
+  -moz-transform: rotateY(270deg) translateZ(4px);
+  -o-transform: rotateY(270deg) translateZ(4px);
+  -ms-transform: rotateY(270deg) translateZ(4px);
+  transform: rotateY(270deg) translateZ(4px); }
+
+div.player-head-right {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -16px -8px;
+  -webkit-transform: rotateY(90deg) translateZ(4px);
+  -moz-transform: rotateY(90deg) translateZ(4px);
+  -o-transform: rotateY(90deg) translateZ(4px);
+  -ms-transform: rotateY(90deg) translateZ(4px);
+  transform: rotateY(90deg) translateZ(4px); }
+
+div.player-head-top {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -8px 0px;
+  -webkit-transform: rotateX(90deg) translateZ(4px);
+  -moz-transform: rotateX(90deg) translateZ(4px);
+  -o-transform: rotateX(90deg) translateZ(4px);
+  -ms-transform: rotateX(90deg) translateZ(4px);
+  transform: rotateX(90deg) translateZ(4px); }
+
+div.player-hat {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: scaleX(1.2) scaleY(1.2) scaleZ(1.2) translateX(-4px) translateY(-1px);
+  -moz-transform: scaleX(1.2) scaleY(1.2) scaleZ(1.2) translateX(-4px) translateY(-1px);
+  -o-transform: scaleX(1.2) scaleY(1.2) scaleZ(1.2) translateX(-4px) translateY(-1px);
+  -ms-transform: scaleX(1.2) scaleY(1.2) scaleZ(1.2) translateX(-4px) translateY(-1px);
+  transform: scaleX(1.2) scaleY(1.2) scaleZ(1.2) translateX(-4px) translateY(-1px); }
+
+div.player-hat-front {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -40px -8px;
+  -webkit-transform: rotateY(0deg) translateZ(4px);
+  -moz-transform: rotateY(0deg) translateZ(4px);
+  -o-transform: rotateY(0deg) translateZ(4px);
+  -ms-transform: rotateY(0deg) translateZ(4px);
+  transform: rotateY(0deg) translateZ(4px);
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  backface-visibility: visible; }
+
+div.player-hat-back {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -54px -8px;
+  -webkit-transform: rotateY(180deg) translateZ(4px);
+  -moz-transform: rotateY(180deg) translateZ(4px);
+  -o-transform: rotateY(180deg) translateZ(4px);
+  -ms-transform: rotateY(180deg) translateZ(4px);
+  transform: rotateY(180deg) translateZ(4px);
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  backface-visibility: visible; }
+
+div.player-hat-left {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -32px -8px;
+  -webkit-transform: rotateY(270deg) translateZ(4px);
+  -moz-transform: rotateY(270deg) translateZ(4px);
+  -o-transform: rotateY(270deg) translateZ(4px);
+  -ms-transform: rotateY(270deg) translateZ(4px);
+  transform: rotateY(270deg) translateZ(4px);
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  backface-visibility: visible; }
+
+div.player-hat-right {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -48px -8px;
+  -webkit-transform: rotateY(90deg) translateZ(4px);
+  -moz-transform: rotateY(90deg) translateZ(4px);
+  -o-transform: rotateY(90deg) translateZ(4px);
+  -ms-transform: rotateY(90deg) translateZ(4px);
+  transform: rotateY(90deg) translateZ(4px);
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  backface-visibility: visible; }
+
+div.player-hat-top {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -40px 0px;
+  -webkit-transform: rotateX(90deg) translateZ(4px);
+  -moz-transform: rotateX(90deg) translateZ(4px);
+  -o-transform: rotateX(90deg) translateZ(4px);
+  -ms-transform: rotateX(90deg) translateZ(4px);
+  transform: rotateX(90deg) translateZ(4px);
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  backface-visibility: visible; }
+
+div.player-body {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateY(8px);
+  -moz-transform: translateY(8px);
+  -o-transform: translateY(8px);
+  -ms-transform: translateY(8px);
+  transform: translateY(8px); }
+
+div.player-body-front {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 12px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -20px -20px;
+  -webkit-transform: translateX(-4px) rotateY(0deg) translateZ(2px);
+  -moz-transform: translateX(-4px) rotateY(0deg) translateZ(2px);
+  -o-transform: translateX(-4px) rotateY(0deg) translateZ(2px);
+  -ms-transform: translateX(-4px) rotateY(0deg) translateZ(2px);
+  transform: translateX(-4px) rotateY(0deg) translateZ(2px); }
+
+div.player-body-back {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 12px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -32px -20px;
+  -webkit-transform: translateX(-4px) rotateY(180deg) translateZ(2px);
+  -moz-transform: translateX(-4px) rotateY(180deg) translateZ(2px);
+  -o-transform: translateX(-4px) rotateY(180deg) translateZ(2px);
+  -ms-transform: translateX(-4px) rotateY(180deg) translateZ(2px);
+  transform: translateX(-4px) rotateY(180deg) translateZ(2px); }
+
+div.player-body-left {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 12px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -16px -20px;
+  -webkit-transform: translateX(-2px) rotateY(270deg) translateZ(4px);
+  -moz-transform: translateX(-2px) rotateY(270deg) translateZ(4px);
+  -o-transform: translateX(-2px) rotateY(270deg) translateZ(4px);
+  -ms-transform: translateX(-2px) rotateY(270deg) translateZ(4px);
+  transform: translateX(-2px) rotateY(270deg) translateZ(4px); }
+
+div.player-body-right {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 12px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -28px -20px;
+  -webkit-transform: translateX(-2px) rotateY(90deg) translateZ(4px);
+  -moz-transform: translateX(-2px) rotateY(90deg) translateZ(4px);
+  -o-transform: translateX(-2px) rotateY(90deg) translateZ(4px);
+  -ms-transform: translateX(-2px) rotateY(90deg) translateZ(4px);
+  transform: translateX(-2px) rotateY(90deg) translateZ(4px); }
+
+div.player-body-top {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -8px -16px;
+  -webkit-transform: translateX(-4px) rotateX(90deg) translateZ(6px);
+  -moz-transform: translateX(-4px) rotateX(90deg) translateZ(6px);
+  -o-transform: translateX(-4px) rotateX(90deg) translateZ(6px);
+  -ms-transform: translateX(-4px) rotateX(90deg) translateZ(6px);
+  transform: translateX(-4px) rotateX(90deg) translateZ(6px); }
+
+div.player-arms {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateY(8px);
+  -moz-transform: translateY(8px);
+  -o-transform: translateY(8px);
+  -ms-transform: translateY(8px);
+  transform: translateY(8px); }
+
+div.player-left-arm {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateX(4px);
+  -moz-transform: translateX(4px);
+  -o-transform: translateX(4px);
+  -ms-transform: translateX(4px);
+  transform: translateX(4px); }
+
+div.player-right-arm {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateX(-4px) scaleX(-1);
+  -moz-transform: translateX(-4px) scaleX(-1);
+  -o-transform: translateX(-4px) scaleX(-1);
+  -ms-transform: translateX(-4px) scaleX(-1);
+  transform: translateX(-4px) scaleX(-1); }
+
+div.player-arm-front {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 12px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -44px -20px;
+  -webkit-transform: rotateY(0deg) translateZ(2px);
+  -moz-transform: rotateY(0deg) translateZ(2px);
+  -o-transform: rotateY(0deg) translateZ(2px);
+  -ms-transform: rotateY(0deg) translateZ(2px);
+  transform: rotateY(0deg) translateZ(2px); }
+
+div.player-arm-back {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 12px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -52px -20px;
+  -webkit-transform: rotateY(180deg) translateZ(2px);
+  -moz-transform: rotateY(180deg) translateZ(2px);
+  -o-transform: rotateY(180deg) translateZ(2px);
+  -ms-transform: rotateY(180deg) translateZ(2px);
+  transform: rotateY(180deg) translateZ(2px); }
+
+div.player-arm-left {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 12px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -40px -20px;
+  -webkit-transform: rotateY(270deg) translateZ(2px);
+  -moz-transform: rotateY(270deg) translateZ(2px);
+  -o-transform: rotateY(270deg) translateZ(2px);
+  -ms-transform: rotateY(270deg) translateZ(2px);
+  transform: rotateY(270deg) translateZ(2px); }
+
+div.player-arm-right {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 12px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -48px -20px;
+  -webkit-transform: rotateY(90deg) translateZ(2px);
+  -moz-transform: rotateY(90deg) translateZ(2px);
+  -o-transform: rotateY(90deg) translateZ(2px);
+  -ms-transform: rotateY(90deg) translateZ(2px);
+  transform: rotateY(90deg) translateZ(2px); }
+
+div.player-arm-top {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -44px -16px;
+  -webkit-transform: rotateX(90deg) translateZ(2px);
+  -moz-transform: rotateX(90deg) translateZ(2px);
+  -o-transform: rotateX(90deg) translateZ(2px);
+  -ms-transform: rotateX(90deg) translateZ(2px);
+  transform: rotateX(90deg) translateZ(2px); }
+
+div.player-legs {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateY(20px);
+  -moz-transform: translateY(20px);
+  -o-transform: translateY(20px);
+  -ms-transform: translateY(20px);
+  transform: translateY(20px); }
+
+div.player-left-leg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px); }
+
+div.player-right-leg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateX(0px) scaleX(-1);
+  -moz-transform: translateX(0px) scaleX(-1);
+  -o-transform: translateX(0px) scaleX(-1);
+  -ms-transform: translateX(0px) scaleX(-1);
+  transform: translateX(0px) scaleX(-1); }
+
+div.player-leg-front {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 12px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -4px -20px;
+  -webkit-transform: rotateY(0deg) translateZ(2px);
+  -moz-transform: rotateY(0deg) translateZ(2px);
+  -o-transform: rotateY(0deg) translateZ(2px);
+  -ms-transform: rotateY(0deg) translateZ(2px);
+  transform: rotateY(0deg) translateZ(2px); }
+
+div.player-leg-back {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 12px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -12px -20px;
+  -webkit-transform: rotateY(180deg) translateZ(2px);
+  -moz-transform: rotateY(180deg) translateZ(2px);
+  -o-transform: rotateY(180deg) translateZ(2px);
+  -ms-transform: rotateY(180deg) translateZ(2px);
+  transform: rotateY(180deg) translateZ(2px); }
+
+div.player-leg-left {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 12px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: 0px -20px;
+  -webkit-transform: rotateY(270deg) translateZ(2px);
+  -moz-transform: rotateY(270deg) translateZ(2px);
+  -o-transform: rotateY(270deg) translateZ(2px);
+  -ms-transform: rotateY(270deg) translateZ(2px);
+  transform: rotateY(270deg) translateZ(2px); }
+
+div.player-leg-right {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 12px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -8px -20px;
+  -webkit-transform: rotateY(90deg) translateZ(2px);
+  -moz-transform: rotateY(90deg) translateZ(2px);
+  -o-transform: rotateY(90deg) translateZ(2px);
+  -ms-transform: rotateY(90deg) translateZ(2px);
+  transform: rotateY(90deg) translateZ(2px); }
+
+div.player-leg-top {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  background-image: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png");
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-position: -4px -16px;
+  -webkit-transform: rotateX(90deg) translateZ(2px);
+  -moz-transform: rotateX(90deg) translateZ(2px);
+  -o-transform: rotateX(90deg) translateZ(2px);
+  -ms-transform: rotateX(90deg) translateZ(2px);
+  transform: rotateX(90deg) translateZ(2px); }

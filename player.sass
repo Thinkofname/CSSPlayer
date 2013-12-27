@@ -1,0 +1,270 @@
+@import 'prefixer'
+
+$skin-url: url("http://s3.amazonaws.com/MinecraftSkins/thinkofdeath.png")
+
+@mixin part($w, $h)
+  display: block
+  top: 0
+  left: 0
+  width: $w
+  height: $h
+  position: absolute
+  background-image: $skin-url
+  @include prefix(backface-visibility, hidden)
+
+
+
+// Spinning animation
+@include keyframe(spin)
+  0%
+    @include prefix(transform, translateX(32px) translateY(8px) rotateY(0deg) )
+  100%
+    @include prefix(transform, translateX(32px) translateY(8px)  rotateY(360deg) )
+
+div.player-scaler
+  width: 64px
+  height: 64px
+  position: relative
+  left: 0
+  top: 0
+  zoom: 6
+  @include prefix(perspective, 200)
+  @include prefix(perspective-origin, 32px -64px)
+
+div.player-render
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  @include prefix(transform-style, preserve-3d)
+  @include prefix(transform-origin, 0 0 0)
+
+  //Animation
+  @include prefix(animation-name, spin)
+  @include prefix(animation-duration, 20s)
+  @include prefix(animation-timing-function, linear)
+  @include prefix(animation-delay, 0s)
+  @include prefix(animation-iteration-count, infinite)
+  @include prefix(animation-direction, normal)
+
+//Head
+
+div.player-head
+  display: block
+  position: absolute
+  top: 0
+  left: 0
+  @include prefix(transform-style, preserve-3d)
+  @include prefix(transform, translateX(-4px))
+
+div.player-head-front
+  @include part(8px, 8px)
+  background-position: -8px -8px
+  @include prefix(transform, rotateY(0deg) translateZ(4px))
+
+div.player-head-back
+  @include part(8px, 8px)
+  background-position: -24px -8px
+  @include prefix(transform, rotateY(180deg) translateZ(4px))
+
+div.player-head-left
+  @include part(8px, 8px)
+  background-position: 0px -8px
+  @include prefix(transform, rotateY(270deg) translateZ(4px))
+
+div.player-head-right
+  @include part(8px, 8px)
+  background-position: -16px -8px
+  @include prefix(transform, rotateY(90deg) translateZ(4px))
+
+div.player-head-top
+  @include part(8px, 8px)
+  background-position: -8px 0px
+  @include prefix(transform, rotateX(90deg) translateZ(4px))
+
+
+//Hat
+
+div.player-hat
+  display: block
+  position: absolute
+  top: 0
+  left: 0
+  @include prefix(transform-style, preserve-3d)
+  @include prefix(transform, scaleX(1.2) scaleY(1.2) scaleZ(1.2) translateX(-4px) translateY(-1px))
+
+div.player-hat-front
+  @include part(8px, 8px)
+  background-position: -40px -8px
+  @include prefix(transform, rotateY(0deg) translateZ(4px))
+  @include prefix(backface-visibility, visible)
+
+div.player-hat-back
+  @include part(8px, 8px)
+  background-position: -54px -8px
+  @include prefix(transform, rotateY(180deg) translateZ(4px))
+  @include prefix(backface-visibility, visible)
+
+div.player-hat-left
+  @include part(8px, 8px)
+  background-position: -32px -8px
+  @include prefix(transform, rotateY(270deg) translateZ(4px))
+  @include prefix(backface-visibility, visible)
+
+div.player-hat-right
+  @include part(8px, 8px)
+  background-position: -48px -8px
+  @include prefix(transform, rotateY(90deg) translateZ(4px))
+  @include prefix(backface-visibility, visible)
+
+div.player-hat-top
+  @include part(8px, 8px)
+  background-position: -40px 0px
+  @include prefix(transform, rotateX(90deg) translateZ(4px))
+  @include prefix(backface-visibility, visible)
+
+
+//Body
+
+div.player-body
+  display: block
+  position: absolute
+  top: 0
+  left: 0
+  @include prefix(transform-style, preserve-3d)
+  @include prefix(transform, translateY(8px))
+
+div.player-body-front
+  @include part(8px, 12px)
+  background-position: -20px -20px
+  @include prefix(transform, translateX(-4px) rotateY(0deg) translateZ(2px))
+
+div.player-body-back
+  @include part(8px, 12px)
+  background-position: -32px -20px
+  @include prefix(transform, translateX(-4px) rotateY(180deg) translateZ(2px))
+
+div.player-body-left
+  @include part(4px, 12px)
+  background-position: -16px -20px
+  @include prefix(transform, translateX(-2px) rotateY(270deg) translateZ(4px))
+
+div.player-body-right
+  @include part(4px, 12px)
+  background-position: -28px -20px
+  @include prefix(transform, translateX(-2px) rotateY(90deg) translateZ(4px))
+
+div.player-body-top
+  @include part(8px, 8px)
+  background-position: -8px -16px
+  @include prefix(transform, translateX(-4px) rotateX(90deg) translateZ(6px))
+
+
+
+//Arms
+
+div.player-arms
+  display: block
+  position: absolute
+  top: 0
+  left: 0
+  @include prefix(transform-style, preserve-3d)
+  @include prefix(transform, translateY(8px))
+
+
+div.player-left-arm
+  display: block
+  position: absolute
+  top: 0
+  left: 0
+  @include prefix(transform-style, preserve-3d)
+  @include prefix(transform, translateX(4px))
+
+div.player-right-arm
+  display: block
+  position: absolute
+  top: 0
+  left: 0
+  @include prefix(transform-style, preserve-3d)
+  @include prefix(transform, translateX(-4px) scaleX(-1))
+
+div.player-arm-front
+  @include part(4px, 12px)
+  background-position: -44px -20px
+  @include prefix(transform, rotateY(0deg) translateZ(2px))
+
+div.player-arm-back
+  @include part(4px, 12px)
+  background-position: -52px -20px
+  @include prefix(transform, rotateY(180deg) translateZ(2px))
+
+div.player-arm-left
+  @include part(4px, 12px)
+  background-position: -40px -20px
+  @include prefix(transform, rotateY(270deg) translateZ(2px))
+
+div.player-arm-right
+  @include part(4px, 12px)
+  background-position: -48px -20px
+  @include prefix(transform, rotateY(90deg) translateZ(2px))
+
+div.player-arm-top
+  @include part(4px, 4px)
+  background-position: -44px -16px
+  @include prefix(transform, rotateX(90deg) translateZ(2px))
+
+
+
+
+//Legs
+
+div.player-legs
+  display: block
+  position: absolute
+  top: 0
+  left: 0
+  @include prefix(transform-style, preserve-3d)
+  @include prefix(transform, translateY(20px))
+
+
+div.player-left-leg
+  display: block
+  position: absolute
+  top: 0
+  left: 0
+  @include prefix(transform-style, preserve-3d)
+  @include prefix(transform, translateX(0px))
+
+div.player-right-leg
+  display: block
+  position: absolute
+  top: 0
+  left: 0
+  @include prefix(transform-style, preserve-3d)
+  @include prefix(transform, translateX(-0px) scaleX(-1))
+
+div.player-leg-front
+  @include part(4px, 12px)
+  background-position: -4px -20px
+  @include prefix(transform, rotateY(0deg) translateZ(2px))
+
+div.player-leg-back
+  @include part(4px, 12px)
+  background-position: -12px -20px
+  @include prefix(transform, rotateY(180deg) translateZ(2px))
+
+div.player-leg-left
+  @include part(4px, 12px)
+  background-position: -0px -20px
+  @include prefix(transform, rotateY(270deg) translateZ(2px))
+
+div.player-leg-right
+  @include part(4px, 12px)
+  background-position: -8px -20px
+  @include prefix(transform, rotateY(90deg) translateZ(2px))
+
+div.player-leg-top
+  @include part(4px, 4px)
+  background-position: -4px -16px
+  @include prefix(transform, rotateX(90deg) translateZ(2px))
