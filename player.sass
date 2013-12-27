@@ -10,7 +10,6 @@ $skin-url: url("http://s3.amazonaws.com/MinecraftSkins/char.png")
   height: $h
   position: absolute
   background-image: $skin-url
-  @include prefix(backface-visibility, hidden)
 
 
 
@@ -29,6 +28,8 @@ div.player-scaler
   top: 0
   @include prefix(perspective, 200)
   @include prefix(transform, scale3d(6, 6, 6) translate3d(16px, 16px, 0px) )
+  @include prefix(backface-visibility, hidden)
+
 
 div.player-render
   position: absolute
