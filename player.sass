@@ -17,9 +17,9 @@ $skin-url: url("http://s3.amazonaws.com/MinecraftSkins/char.png")
 // Spinning animation
 @include keyframe(spin)
   0%
-    @include prefix(transform, translateX(32px) translateY(8px) rotateY(0deg))
+    @include prefix(transform, translateX(32px) translateY(8px) translateY(8px) rotateX(-32deg) rotateY(0deg))
   100%
-    @include prefix(transform, translateX(32px) translateY(8px)  rotateY(360deg) )
+    @include prefix(transform, translateX(32px) translateY(8px) translateY(8px) rotateX(-32deg) rotateY(360deg))
 
 div.player-scaler
   width: 64px
@@ -28,8 +28,7 @@ div.player-scaler
   left: 0
   top: 0
   @include prefix(perspective, 200)
-  @include prefix(perspective-origin, 32px -64px)
-  @include prefix(transform, scale3d(6, 6, 6) translate3d(16px, 16px, 0px))
+  @include prefix(transform, scale3d(6, 6, 6) translate3d(16px, 16px, 0px) )
 
 div.player-render
   position: absolute
