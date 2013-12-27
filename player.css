@@ -165,7 +165,7 @@ div.player-head-front {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -8px -8px;
   -webkit-transform: rotateY(0deg) translateZ(4px);
   -moz-transform: rotateY(0deg) translateZ(4px);
@@ -180,7 +180,7 @@ div.player-head-back {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -24px -8px;
   -webkit-transform: rotateY(180deg) translateZ(4px);
   -moz-transform: rotateY(180deg) translateZ(4px);
@@ -195,7 +195,7 @@ div.player-head-left {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: 0px -8px;
   -webkit-transform: rotateY(270deg) translateZ(4px);
   -moz-transform: rotateY(270deg) translateZ(4px);
@@ -210,7 +210,7 @@ div.player-head-right {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -16px -8px;
   -webkit-transform: rotateY(90deg) translateZ(4px);
   -moz-transform: rotateY(90deg) translateZ(4px);
@@ -225,7 +225,7 @@ div.player-head-top {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -8px 0px;
   -webkit-transform: rotateX(90deg) translateZ(4px);
   -moz-transform: rotateX(90deg) translateZ(4px);
@@ -256,7 +256,7 @@ div.player-hat-front {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -40px -8px;
   -webkit-transform: rotateY(0deg) translateZ(4px);
   -moz-transform: rotateY(0deg) translateZ(4px);
@@ -276,7 +276,7 @@ div.player-hat-back {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -54px -8px;
   -webkit-transform: rotateY(180deg) translateZ(4px);
   -moz-transform: rotateY(180deg) translateZ(4px);
@@ -296,7 +296,7 @@ div.player-hat-left {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -32px -8px;
   -webkit-transform: rotateY(270deg) translateZ(4px);
   -moz-transform: rotateY(270deg) translateZ(4px);
@@ -316,7 +316,7 @@ div.player-hat-right {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -48px -8px;
   -webkit-transform: rotateY(90deg) translateZ(4px);
   -moz-transform: rotateY(90deg) translateZ(4px);
@@ -336,7 +336,7 @@ div.player-hat-top {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -40px 0px;
   -webkit-transform: rotateX(90deg) translateZ(4px);
   -moz-transform: rotateX(90deg) translateZ(4px);
@@ -372,7 +372,7 @@ div.player-body-front {
   width: 8px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -20px -20px;
   -webkit-transform: translateX(-4px) rotateY(0deg) translateZ(2px);
   -moz-transform: translateX(-4px) rotateY(0deg) translateZ(2px);
@@ -387,7 +387,7 @@ div.player-body-back {
   width: 8px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -32px -20px;
   -webkit-transform: translateX(-4px) rotateY(180deg) translateZ(2px);
   -moz-transform: translateX(-4px) rotateY(180deg) translateZ(2px);
@@ -402,7 +402,7 @@ div.player-body-left {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -16px -20px;
   -webkit-transform: translateX(-2px) rotateY(270deg) translateZ(4px);
   -moz-transform: translateX(-2px) rotateY(270deg) translateZ(4px);
@@ -417,7 +417,7 @@ div.player-body-right {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -28px -20px;
   -webkit-transform: translateX(-2px) rotateY(90deg) translateZ(4px);
   -moz-transform: translateX(-2px) rotateY(90deg) translateZ(4px);
@@ -432,7 +432,7 @@ div.player-body-top {
   width: 8px;
   height: 8px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -8px -16px;
   -webkit-transform: translateX(-4px) rotateX(90deg) translateZ(6px);
   -moz-transform: translateX(-4px) rotateX(90deg) translateZ(6px);
@@ -495,7 +495,7 @@ div.player-arm-front {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -44px -20px;
   -webkit-transform: rotateY(0deg) translateZ(2px);
   -moz-transform: rotateY(0deg) translateZ(2px);
@@ -510,7 +510,7 @@ div.player-arm-back {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -52px -20px;
   -webkit-transform: rotateY(180deg) translateZ(2px);
   -moz-transform: rotateY(180deg) translateZ(2px);
@@ -525,7 +525,7 @@ div.player-arm-left {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -40px -20px;
   -webkit-transform: rotateY(270deg) translateZ(2px);
   -moz-transform: rotateY(270deg) translateZ(2px);
@@ -540,7 +540,7 @@ div.player-arm-right {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -48px -20px;
   -webkit-transform: rotateY(90deg) translateZ(2px);
   -moz-transform: rotateY(90deg) translateZ(2px);
@@ -555,7 +555,7 @@ div.player-arm-top {
   width: 4px;
   height: 4px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -44px -16px;
   -webkit-transform: rotateX(90deg) translateZ(2px);
   -moz-transform: rotateX(90deg) translateZ(2px);
@@ -618,7 +618,7 @@ div.player-leg-front {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -4px -20px;
   -webkit-transform: rotateY(0deg) translateZ(2px);
   -moz-transform: rotateY(0deg) translateZ(2px);
@@ -633,7 +633,7 @@ div.player-leg-back {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -12px -20px;
   -webkit-transform: rotateY(180deg) translateZ(2px);
   -moz-transform: rotateY(180deg) translateZ(2px);
@@ -648,7 +648,7 @@ div.player-leg-left {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: 0px -20px;
   -webkit-transform: rotateY(270deg) translateZ(2px);
   -moz-transform: rotateY(270deg) translateZ(2px);
@@ -663,7 +663,7 @@ div.player-leg-right {
   width: 4px;
   height: 12px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -8px -20px;
   -webkit-transform: rotateY(90deg) translateZ(2px);
   -moz-transform: rotateY(90deg) translateZ(2px);
@@ -678,7 +678,7 @@ div.player-leg-top {
   width: 4px;
   height: 4px;
   position: absolute;
-  background-image: url("http://s3.amazonaws.com/MinecraftSkins/char.png");
+  background-image: url(http://s3.amazonaws.com/MinecraftSkins/char.png);
   background-position: -4px -16px;
   -webkit-transform: rotateX(90deg) translateZ(2px);
   -moz-transform: rotateX(90deg) translateZ(2px);
