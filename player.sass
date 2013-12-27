@@ -179,7 +179,7 @@ div.player-left-arm
   top: 0
   left: 0
   @include prefix(transform-style, preserve-3d)
-  @include prefix(transform, translateX(4px))
+  @include prefix(transform, translateX(8px) scaleX(-1))
 
 div.player-right-arm
   display: block
@@ -187,7 +187,7 @@ div.player-right-arm
   top: 0
   left: 0
   @include prefix(transform-style, preserve-3d)
-  @include prefix(transform, translateX(-4px) scaleX(-1))
+  @include prefix(transform, translateX(-8px))
 
 div.player-arm-front
   @include part(4px, 12px)
@@ -234,7 +234,7 @@ div.player-left-leg
   top: 0
   left: 0
   @include prefix(transform-style, preserve-3d)
-  @include prefix(transform, translateX(0px))
+  @include prefix(transform, translateX(4px) scaleX(-1))
 
 div.player-right-leg
   display: block
@@ -242,7 +242,7 @@ div.player-right-leg
   top: 0
   left: 0
   @include prefix(transform-style, preserve-3d)
-  @include prefix(transform, translateX(-0px) scaleX(-1))
+  @include prefix(transform, translateX(-4px) )
 
 div.player-leg-front
   @include part(4px, 12px)
