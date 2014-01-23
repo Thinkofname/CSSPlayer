@@ -84,11 +84,11 @@ div.player-scaler {
   -o-perspective: 200;
   -ms-perspective: 200;
   perspective: 200;
-  -webkit-transform: scale3d(6, 6, 6) translate3d(16px, 16px, 0px);
-  -moz-transform: scale3d(6, 6, 6) translate3d(16px, 16px, 0px);
-  -o-transform: scale3d(6, 6, 6) translate3d(16px, 16px, 0px);
-  -ms-transform: scale3d(6, 6, 6) translate3d(16px, 16px, 0px);
-  transform: scale3d(6, 6, 6) translate3d(16px, 16px, 0px);
+  -webkit-transform: scale3d(2, 2, 2) translate3d(16px, 0px, 0px);
+  -moz-transform: scale3d(2, 2, 2) translate3d(16px, 0px, 0px);
+  -o-transform: scale3d(2, 2, 2) translate3d(16px, 0px, 0px);
+  -ms-transform: scale3d(2, 2, 2) translate3d(16px, 0px, 0px);
+  transform: scale3d(2, 2, 2) translate3d(16px, 0px, 0px);
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
